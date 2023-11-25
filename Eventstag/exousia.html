@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>WCCRM PH WEBCAST</title>
+   <link rel="shortcut icon" href="images/wccrm-logo-temp.png" type="image/x-icon">
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+   <meta name="description" content="WCCRMPH WEBCAST">
+   <meta name="keywords" content="wccrmph, wccrm, watchmanportharcourt">
+   <meta name="author" content="WCCRM PH MEDIA">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="" class="logo">WCCRM PH</a>
+
+    
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-video"></div>
+         <div id="user-btn" class="fas fa-tower-broadcast"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+       <p class="collect">MEDIA ARM OF WCCRM PH </p>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/wccrm-logo-temp.png" class="image" alt="">
+      <h3 class="name">WCCRM PH</h3>
+      <p class="role">WEBCAST</p>
+      <a href="../index.html" class="btn">Back Home</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="../index.html"><i class="fas fa-home"></i><span>Home</span></a>
+
+   </nav>
+
+</div>
+<section class="playlist-details">
+
+   <h1 class="heading">Exousia 3.0 2023</h1>
+
+   <div class="row">
+
+      <div class="column">
+         <form action="" method="post" class="save-playlist">
+            <button type="submit"><a href=""><i class="far fa-calendar"></i> <span>8TH-10TH December, 2023</span></a></button>
+         </form>
+   
+         <div class="thumb">
+            <img src="images/exousia.jpg" alt="">
+            <span><i class=" fas fa-eye">#Wccrmph_rumigbo</i></span>
+         </div>
+      </div>
+      <div class="column">
+         <div class="tutor">
+            <img src="images/wccrm-logo-temp.png" alt="">
+            <div>
+               <h3>WCCRM PH Rumigbo</h3>
+         
+            </div>
+         </div>
+   
+         <div class="details">
+
+            <p> Stream <span><i class=" fas fa-television"></i></span><br>
+                Youtube: <b><a href="https://www.youtube.com/@watchmanportharcourt">WATCHMAN PORTHARCOURT</a></b><br>
+                Facebook: <b><a href="https://web.facebook.com/watchmanportharcourt/">WATCHMAN PORTHARCOURT</a></b></p>
+            
+            </p>
+                
+               
+
+            <p> Location <span><i class=" fas fa-location"></i></span>
+                Watchman Rumuigbo Parish, 188 Daniel Okocha Street, Rumuigbo, Port Harcourt, Rivers State.</p> 
+                <a href="https://getdp.co/VtB" target="_blank" class="inline-btn">Create DP</a>
+                
+              
+                <a href="javascript:void(0);" class="inline-btn" onclick="shareOnWhatsApp()">Share This Event <i class="fas fa-share"></i></a> 
+            <a href="images/exousia.jpg" class="inline-btn" download="">Download Flier</a>
+           
+
+              
+         </div>
+      </div>
+   </div>
+
+</section>
+
+
+
+<script>
+   function shareOnWhatsApp() {
+       // Your event details
+       var eventDetails = "WATCHMAN CATHOLIC CHARISMATIC RENEWAL MOVEMENT PORT HARCOURT\n\nSOCIAL MEDIA HANDLES\n\nA CONVENANT SERVICE @ Rumigbo\n\n*PRESENTS*\n\nIt Is Yet Your Year\n\n\nDATE: 01 October, 2023.\n\nVENUE: Watchman Rumuigbo Parish, 188 Daniel Okocha Street, Rumuigbo, Port Harcourt, Rivers State AND ALL OUR SOCIAL MEDIA HANDLES\n\nJOIN US ON ANY OF THESE SOCIAL MEDIA HANDLES:\n\nFACEBOOK PAGE: I. WATCHMAN PORTHARCOURT: https://www.facebook.com/watchmanportharcourt\n\nYOUTUBE: √ https://www.youtube.com/@watchmanportharcourt\n\nWCCRM PORTHARCOURT WEBCAST: https://wccrmportharcourtconect.netlify.app/live\n\nUpcoming Events🗓 https://bit.ly/WCCRMPHRUMIGBO\n\nWCCRM PORTHARCOURT MEDIA:-\n\nDownload all our Messages and Videos here👇 https://wccrmportharcourtconect.netlify.app/mvid";
+
+       // Encode the event details for the WhatsApp message
+       var encodedEventDetails = encodeURIComponent(eventDetails);
+
+       // Create the WhatsApp share link
+       var whatsappShareLink = "https://api.whatsapp.com/send?text=" + encodedEventDetails;
+
+       // Open WhatsApp with the event details pre-filled in the message
+       window.location.href = whatsappShareLink;
+   }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+   
+</body>
+</html>
